@@ -21,6 +21,7 @@ public class GeneralStoreAppRunner{
 		EcommerceGeneralStore.AddingProductinCart(InvokeAppiumServer.gspo);
 		LoggerHelper.log("Exit RunGeneralStore Method");
 System.out.println("Commit");
+LoggerHelper.log("Commit from 2");
 	}
 
 	@Test(dataProvider = "shopname", dataProviderClass = ReadDatafromExcel.class)

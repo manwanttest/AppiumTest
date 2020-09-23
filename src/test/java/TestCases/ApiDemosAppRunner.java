@@ -14,6 +14,7 @@ import Implementation.BaseClick;
 	public ApiDemosAppRunner() throws IOException, InterruptedException {
 		LoggerHelper.log("Inside ApiDemosAppTestRunner");
 		InvokeEmulator.StartEmulator();
+LoggerHelper.log("Commit from 1");
 	}
 	
 	@Test

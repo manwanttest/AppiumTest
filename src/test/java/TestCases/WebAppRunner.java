@@ -13,6 +13,7 @@ public class WebAppRunner {
 		LoggerHelper.log("Enter WebTesting Method");
 		WebAppTest.OpenWebpage();
 		LoggerHelper.log("Exit WebTesting Method");
+LoggerHelper.log("Commit from 3");
 	}
 
 }
