@@ -47,6 +47,7 @@ public class AppiumMethods {
 	
 	public static void click(WebElement e) {
 		LoggerHelper.log("Element to click: "+ e);
+LoggerHelper.log("Text to commit"+ text);
 		e.click();
 		LoggerHelper.log("Element Clicked: "+ e);
 	}
