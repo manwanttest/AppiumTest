@@ -15,7 +15,7 @@ public class BaseClick extends AppiumMethods
 	
 	//public static void main(String[] args) throws MalformedURLException, InterruptedException {
 		public static void ClickAPIDemos() throws MalformedURLException, InterruptedException {
-		
+		LoggerHelper.log("working in appiumtest branch");
 			// Way to use xpath only with tag name
 			//driver.findElementByXPath("(//android.widget.RelativeLayout)[2]").click();
 		//Desiredcaps.Appcap("ApiDemos-debug.apk", "Test");
