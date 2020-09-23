@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="TestCases.MethodInvocation"/>
+  </listeners>
+  <test thread-count="1" name="ApiDemosApp(failed)">
+    <classes>
+      <class name="TestCases.ApiDemosAppTestRunner">
+        <methods>
+          <include name="afterInvocation"/>
+          <include name="afterInvocation"/>
+          <include name="beforeInvocation"/>
+          <include name="beforeInvocation"/>
+        </methods>
+      </class> <!-- TestCases.ApiDemosAppTestRunner -->
+    </classes>
+  </test> <!-- ApiDemosApp(failed) -->
+</suite> <!-- Failed suite [Suite] -->
